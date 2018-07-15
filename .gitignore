@@ -1,0 +1,9 @@
+.idea/
+.code/
+vendor/
+
+.env
+.DS_Store
+
+composer.lock
+index.php

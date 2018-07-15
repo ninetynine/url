@@ -1,0 +1,36 @@
+{
+  "name": "ninetynine/url",
+  "description": "A package which offers a helper to build URLs",
+  "minimum-stability": "dev",
+  "type": "library",
+  "license": "LGPL-3.0",
+  "keywords": [
+    "helpers",
+    "php"
+  ],
+  "homepage": "https://github.com/ninetynine/url",
+  "support": {
+    "issues": "https://github.com/ninetynine/url/issues",
+    "source": "https://github.com/ninetynine/url"
+  },
+  "authors": [
+    {
+      "name": "Dexter Marks-Barber",
+      "email": "dexter@marks-barber.co.uk",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "php": "^7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "NinetyNine\\Url\\": "src/NinetyNine/Url"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.x-dev"
+    }
+  }
+}
