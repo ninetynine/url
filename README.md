@@ -33,6 +33,7 @@ $url = URL::parse('http://google.co.uk', 2);
 
 print_r($url);
 
+// Output
 NinetyNine\Url\Url Object
 (
     [host:protected] => google.co.uk
@@ -59,6 +60,7 @@ $url = URL::parse('http://euw.op.gg:80/ranking/ladder/', 1);
 
 print_r($url);
 
+// Output
 NinetyNine\Url\Url Object
 (
     [host:protected] => op.gg
