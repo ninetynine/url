@@ -181,9 +181,9 @@ $url->hasSubdomainVolatile('bar');
 To check if a URL has all given subdomains call `hasSubdomains` which excepts an infinite amount of strings, or an array of strings, and will return a bool. Although calling `hasSubdomainVolatile` will throw an `InvalidArrayElementException` if not found rather than a bool and will return an instance of URL.
 ```
 $url->hasSubdomains('foo1', 'foo2');
-$url->hasSubdomainVolatiles('bar1', 'bar2');
+$url->hasSubdomainsVolatile('bar1', 'bar2');
 
 // or
 $url->hasSubdomains(['foo1', 'foo2']);
-$url->hasSubdomainVolatiles(['bar1', 'bar2']);
+$url->hasSubdomainsVolatile(['bar1', 'bar2']);
 ```
