@@ -1,5 +1,7 @@
 # :link: URL
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/08f19293fccdf6301575/maintainability)](https://codeclimate.com/github/ninetynine/url/maintainability)
+
 _URL_ is a package which offers a helper to build URLs. It is currently standalone with no third party dependencies. It can be used for building URLs or parsing them.
 
 ## Get Started
